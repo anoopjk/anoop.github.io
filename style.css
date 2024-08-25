@@ -41,7 +41,8 @@ nav a:hover {
 main {
     padding: 20px;
     margin: 20px auto;
-    max-width: 1500px;
+    max-width: 1200px; /* Increased from 900px to 1200px to widen the page */
+    width: 90%; /* Added to ensure responsiveness across different screen sizes */
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
