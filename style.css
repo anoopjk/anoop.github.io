@@ -47,6 +47,50 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Profile Picture Styling */
+#profile {
+    text-align: center; /* Center the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+#profile-pic {
+    width: 150px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Interests and Contact Sections */
+#interests, #contact {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#interests h2, #contact h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#interests ul, #contact p {
+    margin-left: 20px;
+}
+
+#contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+
 /* Section Titles */
 h2 {
     border-bottom: 2px solid #333;
